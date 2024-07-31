@@ -209,7 +209,7 @@ p {
 }
 
 .sidebar {
-    background: linear-gradient(-45deg, rgba(212, 66, 36, 1),rgba(212, 66, 36, 1));
+    background: linear-gradient(-45deg, rgba(212, 66, 36, 0.9),rgba(212, 66, 36, 1));
     width: 25%;
     padding: 10px;
     display: flex;
