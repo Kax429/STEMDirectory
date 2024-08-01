@@ -66,7 +66,7 @@ $(document).ready(function () {
             $(".weather").html('<span class="temperature">' + data["main"]["temp"] + ' &deg;C</span> <i class="wi wi-' + icon + '"></i>')
         });
 
-        setTimeout(getWeather, 60 * 60 * 1000); // 60 minutes
+        setTimeout(getWeather, 15 * 60 * 1000); // 15 minutes
     }
 
     function iconFromWeatherCode(code, sunrise, sunset) {
