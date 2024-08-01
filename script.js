@@ -155,7 +155,7 @@ $(document).ready(function () {
 
         return "na";
     }
-
+/*
     function getEvents() {
         var options = {
             "organizer.id": config["eventbrite"]["organizer_id"],
@@ -214,6 +214,7 @@ $(document).ready(function () {
 
         navigateToPage(".eventbrite-event-details");
     }
+*/
 
     function setTime() {
         var time = new Date();
