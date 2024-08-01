@@ -321,7 +321,7 @@ $(document).ready(function () {
         if (timer !== null)
             clearTimeout(timer);
 
-        timer = setTimeout(showOverlay, 30 * 1000); // 30s
+        timer = setTimeout(showOverlay, 60 * 1000); // 60s
 
         return false;
     });
@@ -341,8 +341,9 @@ $(document).ready(function () {
         var target = $this.attr('id').split('-')[0];
         showPathTo(target);
     });
-
+    /*
     $("#events-button").on("click", function () {
         navigateToPage(".eventbrite-events");
     })
+    */
 });
